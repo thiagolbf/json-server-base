@@ -6,6 +6,96 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "thiago@testeHeroku.com",
+      "password": "$2a$10$rQYuRQgBpknNrYc1SYM0hO4mWbnr8V1MQU4xoOd/zRRbt0Vju9QVm",
+      "id": 2
+    },
+    {
+      "email": "mondragon@mondragon.com",
+      "password": "$2a$10$Sr5.gMFMnUo6BveVzZl/8.T27itpfyze09w1eRWU0jhaVoMT0poCK",
+      "id": 3
+    },
+    {
+      "email": "mondragown@mondragon.com",
+      "password": "$2a$10$64jskvb7pdJT.cnDcORstOUSF5bEUkeHYnxnB44I8fyyFvw9G3cRS",
+      "id": 4
+    }
+  ],
+  "typeProducts": [
+    {
+      "name": "computador",
+      "category": "eletronico",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "monitor",
+      "category": "eletronico",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "product": [
+    {
+      "name": "televisao",
+      "category": "eletronico",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "celular",
+      "category": "phone",
+      "userId": 2,
+      "id": 2
+    },
+
+    {
+      "name": "pastel",
+      "categoria": "salgado",
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "nome": "bolo formatura",
+      "category": "doce",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "name": "pastel-brigadeiro",
+      "categoria": "doce",
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "name": "pastel-carne",
+      "categoria": "salgado",
+      "userId": 3,
+      "id": 9
+    }
+  ],
+  "caracteristicas": [
+    {
+      "weight": "5kg",
+      "productId": 1,
+      "userId": 2
+    },
+    {
+      "brand": "samsung",
+      "productId": 2,
+      "userId": 2
+    },
+    {
+      "filling": "nozes",
+      "productId": 1,
+      "userId": 3
+    },
+    {
+      "filling": "chocolate",
+      "productId": 8,
+      "userId": 3
     }
   ]
 }
